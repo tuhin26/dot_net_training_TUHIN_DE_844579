@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>java script</title>
+
+</head>
+<body>
+first number:<input type="text" id="text1"></br>
+second number:<input type="text" id="text2"></br>
+
+<button id="btnshow" onclick="show()">show result</button>
+ <script type ="text/javascript">
+function show(a,b)
+{
+var a= parseFloat(document.getElementById("text1").value);
+var b= parseFloat(document.getElementById("text2").value);
+var c= a+b;
+document.writeln('sum is'+c);
+
+}
+
+
+
+</script>
+</body>
+</html>

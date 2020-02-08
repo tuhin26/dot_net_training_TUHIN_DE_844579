@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>java script</title>
+
+</head>
+<body>
+
+
+
+
+
+<form id ="my form">
+ name:<input type ="text" id ="text1"></br>
+ dob:<input type ="date" id ="textdob" required></br>
+<input type ="button" id ="btnsubmit" value="submit">
+</form>
+
+
+<script type ="text/javascript">
+
+
+
+document.getElementById("btnsubmit").onclick=
+function validation()
+{
+	var x = document.forms["my form"]["text1"].value;
+	if(x=="")
+	{
+		alert("field cannot be empty");
+		return false;
+	}
+}
+
+
+</script>
+</body>
+</html>

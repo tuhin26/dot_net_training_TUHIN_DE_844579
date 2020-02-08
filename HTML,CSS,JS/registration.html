@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Registration</title>
+</head>
+<body bgcolor="skyblue" color="red">
+<h3>STUDENT REGISTRATION FORM</h3>
+<form name="regnform" action="process.html" method="get">
+<table border="5">
+<tr>
+<td>NAME</td>
+<td><input type="text" name="Name">
+</td>
+</tr>
+<tr>
+<td>DOB</td><td><input type="date" name="txtDOB">
+</td>
+</tr>
+<tr>
+<td>ADDRESS</td>
+<td><textarea name="Address" rows="4" cols="30"></textarea></td>
+</tr>
+<tr>
+<td>GENDER</td>
+<td>
+ <input type="radio" name="Gender" value="Male" />male</br>
+ <input type="radio" name="Gender" value="Female" />female
+</td>
+</tr>
+
+<tr>
+<td>HOBBIES</td>
+<td><select name="selHOBBIES">
+<option value="swim">swiming</option> 
+<option value="play">playing</option> 
+</td>
+</tr>
+<tr>
+<td>emailID</td>
+<td><input type="email"name="txtemail" value="enter your emailID"></td>
+<tr>
+<td></td>
+<td>
+<input type="button" name="btnsubmit" value="submit">
+
+<input type="button" name="btnreset" value="reset"></td>
+</tr>
+</body>
+</html>
